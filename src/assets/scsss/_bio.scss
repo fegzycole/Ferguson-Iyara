@@ -1,0 +1,76 @@
+#Bio {
+  div {
+    padding: 20px 50px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    .name {
+      width: 100%;
+      overflow: hidden;
+      color: #747fe0;
+      font-size: 25px;
+      font-family: Monaco, sans-serif;
+      white-space: nowrap;
+      letter-spacing: 0.15em;
+      animation: typing 2.5s steps(40, end);
+    }
+
+    .desc {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #525f7f;
+      font-family: Montserrat, sans-serif;
+    }
+
+    button {
+      margin-top: 20px;
+      border: 2px solid #747fe0;
+      padding: 10px 25px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 680px) {
+  #Bio {
+    div {
+      width: 85%;
+
+      .name {
+        width: 100%;
+        font-size: 28px;
+        font-family: Monaco, sans-serif;
+      }
+
+      .desc {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 990px) {
+  #Bio {
+    div {
+      width: 80%;
+      padding: 50px;
+
+      .name {
+        width: 100%;
+        font-size: 55px;
+        font-family: Monaco, sans-serif;
+      }
+    }
+  }
+}
