@@ -17,7 +17,30 @@
       font-size: 14px;
       a {
         color: #5a5d7a;
+        position: relative;
         text-decoration: none;
+        transition: 0.1s ease-in-out;
+
+        &:hover::after {
+          width: 100%;
+        }
+
+        &:hover {
+          color: #7795f8;
+          opacity: 0.8;
+        }
+
+        &::after {
+          display: block;
+          position: absolute;
+          left: 0;
+          bottom: -30px;
+          width: 0;
+          height: 8px;
+          background-color: #747fe0;
+          content: '';
+          transition: width 0.15s;
+        }
       }
     }
   }

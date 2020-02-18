@@ -21,14 +21,24 @@
       margin-top: 10px;
       color: #525f7f;
       font-family: Montserrat, sans-serif;
+      margin-bottom: 30px;
     }
 
-    button {
-      margin-top: 20px;
+    a {
       border: 2px solid #747fe0;
       padding: 10px 25px;
       border-radius: 5px;
       cursor: pointer;
+      text-decoration: none;
+      color: #5a5d7a;
+      background-size: 200% 200%;
+      background-image: linear-gradient(to right, #f2f2f2 50%, #747fe0 50%);
+      transition: background-position .5s;
+
+      &:hover {
+        color: #fff;
+        background-position: -100% 0;
+      }
     }
   }
 
