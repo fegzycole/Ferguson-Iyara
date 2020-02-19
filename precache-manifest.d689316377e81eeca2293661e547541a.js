@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "95abd68a4ed2a6692a6e47b4c95ce0a9",
+    "revision": "05ffbe3f7acb5f240ef65f863e31909a",
     "url": "/Ferguson-Iyara/index.html"
   },
   {
-    "revision": "26a7af83cf5bbe115d49",
-    "url": "/Ferguson-Iyara/static/css/main.65359cd7.chunk.css"
+    "revision": "586bbb49cc8c8c3c647e",
+    "url": "/Ferguson-Iyara/static/css/main.69fd203d.chunk.css"
   },
   {
     "revision": "5892cfb873a1785ec0eb",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ferguson-Iyara/static/js/2.06312d88.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "26a7af83cf5bbe115d49",
+    "revision": "586bbb49cc8c8c3c647e",
     "url": "/Ferguson-Iyara/static/js/main.28f1f8e5.chunk.js"
   },
   {
