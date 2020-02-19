@@ -1,9 +1,51 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Project from '../Project/Project';
+import BankaImage from '../../assets/files/myBanka.png';
+import TwitterImage from '../../assets/files/myTwitter.png';
+import FacebookImage from '../../assets/files/myFacebook.png';
 
-const Portfolio = () => (
-  <section className="portfolio">
-    <h1>Portfolio</h1>
-  </section>
-);
+class Portfolio extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      projects: [
+        {
+          name: 'Banka',
+          imageSrc: BankaImage,
+          about:
+            'Banka is a light-weight core banking application that powers banking operations like account creation, customer deposit and withdrawals. This app is meant to support a single bank, where users can signup and create bank accounts online, but must visit the branch to withdraw or deposit money'
+        },
+        {
+          name: 'Twitter Redesign',
+          imageSrc: TwitterImage,
+          about:
+            'A social media application mimicking some of the functionalities of twitter.com, built as a capstone project in the rails section of the microverse curriculum.'
+        },
+        {
+          name: 'Fakebook',
+          imageSrc: FacebookImage,
+          about:
+            'A social media application mimicking some of the functionalities of facebook.com, built as a project in the rails section of the microverse curriculum.'
+        }
+      ]
+    };
+  }
+
+  render() {
+    const myProjects = this.state.projects.map(({ name, imageSrc, about }) => (
+      <Project name={name} key={name} imageSrc={imageSrc} about={about} />
+    ));
+    return (
+      <section id="portfolio">
+        <h1>Portfolio</h1>
+
+        <div className="projects">
+          {myProjects}
+        </div>
+      </section>
+    );
+  }
+}
 
 export default Portfolio;

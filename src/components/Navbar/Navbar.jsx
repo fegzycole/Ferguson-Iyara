@@ -3,7 +3,7 @@ import './Navbar.styles.scss'
 
 const Navbar = () => {
   return(
-    <header class="header">
+    <header className="header">
       <ul>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#publications">Publications</a></li>
