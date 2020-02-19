@@ -1,0 +1,37 @@
+.social-links {
+  position: fixed;
+  bottom: 30px;
+  left: 10px;
+  .social-links-container {
+    display: flex;
+    flex-direction: column;
+
+    &::before,
+    &::after {
+      display: block;
+      width: 1px;
+      height: 200px;
+      margin-left: 10px;
+      background-color: #747fe0;
+      content: '';
+    }
+
+    i {
+      font-size: 30px;
+      margin-top: 10px;
+      color: #525f7f;
+    }
+
+    i.twitter:hover {
+      color: rgb(29, 161, 242);
+    }
+
+    i.github:hover {
+      color: #24292e;
+    }
+
+    i.linkedIn:hover {
+      color: #0077b5;
+    }
+  }
+}

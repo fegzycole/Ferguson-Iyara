@@ -1,0 +1,86 @@
+#Bio {
+  div {
+    padding: 20px 50px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    .name {
+      width: 100%;
+      overflow: hidden;
+      color: #747fe0;
+      font-size: 25px;
+      font-family: Monaco, sans-serif;
+      white-space: nowrap;
+      letter-spacing: 0.15em;
+      animation: typing 2.5s steps(40, end);
+    }
+
+    .desc {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #525f7f;
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 30px;
+    }
+
+    a {
+      border: 2px solid #747fe0;
+      padding: 10px 25px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      color: #5a5d7a;
+      background-size: 200% 200%;
+      background-image: linear-gradient(to right, #f2f2f2 50%, #747fe0 50%);
+      transition: background-position .5s;
+
+      &:hover {
+        color: #fff;
+        background-position: -100% 0;
+      }
+    }
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 680px) {
+  #Bio {
+    div {
+      width: 85%;
+
+      .name {
+        width: 100%;
+        font-size: 28px;
+        font-family: Monaco, sans-serif;
+      }
+
+      .desc {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 990px) {
+  #Bio {
+    div {
+      width: 80%;
+      padding: 50px;
+
+      .name {
+        width: 100%;
+        font-size: 55px;
+        font-family: Monaco, sans-serif;
+      }
+    }
+  }
+}
