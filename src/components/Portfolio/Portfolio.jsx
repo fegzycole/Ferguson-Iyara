@@ -14,35 +14,48 @@ class Portfolio extends Component {
           name: 'Banka',
           imageSrc: BankaImage,
           about:
-            'Banka is a light-weight core banking application that powers banking operations like account creation, customer deposit and withdrawals. This app is meant to support a single bank, where users can signup and create bank accounts online, but must visit the branch to withdraw or deposit money'
+            'Banka is a light-weight core banking application that powers banking operations like account creation, customer deposit and withdrawals. This app is meant to support a single bank, where users can signup and create bank accounts online, but must visit the branch to withdraw or deposit money',
+          repository: 'https://github.com/fegzycole/BANKA',
+          liveVersion: 'https://vast-tor-00576.herokuapp.com'
         },
         {
           name: 'Twitter Redesign',
           imageSrc: TwitterImage,
           about:
-            'A social media application mimicking some of the functionalities of twitter.com, built as a capstone project in the rails section of the microverse curriculum.'
+            'A social media application mimicking some of the functionalities of twitter.com, built as a capstone project in the rails section of the microverse curriculum.',
+          repository: 'https://github.com/fegzycole/Rails-Capstone',
+          liveVersion: 'https://secure-shelf-49955.herokuapp.com'
         },
         {
           name: 'Fakebook',
           imageSrc: FacebookImage,
           about:
-            'A social media application mimicking some of the functionalities of facebook.com, built as a project in the rails section of the microverse curriculum.'
+            'A social media application mimicking some of the functionalities of facebook.com, built as a project in the rails section of the microverse curriculum.',
+          repository: 'https://github.com/kalavhan/facebook-clone',
+          liveVersion: 'https://frozen-forest-23599.herokuapp.com'
         }
       ]
     };
   }
 
   render() {
-    const myProjects = this.state.projects.map(({ name, imageSrc, about }) => (
-      <Project name={name} key={name} imageSrc={imageSrc} about={about} />
-    ));
+    const myProjects = this.state.projects.map(
+      ({ name, imageSrc, about, repository, liveVersion }) => (
+        <Project
+          name={name}
+          key={name}
+          imageSrc={imageSrc}
+          about={about}
+          repository={repository}
+          liveVersion={liveVersion}
+        />
+      )
+    );
     return (
       <section id="portfolio">
         <h1>Portfolio</h1>
 
-        <div className="projects">
-          {myProjects}
-        </div>
+        <div className="projects">{myProjects}</div>
       </section>
     );
   }

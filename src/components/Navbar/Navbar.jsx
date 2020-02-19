@@ -7,7 +7,7 @@ const Navbar = () => {
       <ul>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#publications">Publications</a></li>
-        <li><a href="#contact-me">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </header>
   );

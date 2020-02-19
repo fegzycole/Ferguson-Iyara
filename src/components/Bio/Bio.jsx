@@ -7,7 +7,7 @@ const Bio = () => {
     <section id="Bio">
       <div>
         <p className="name">Ferguson Iyara</p>
-        <p className="desc">I am a self taught web developer based in Lagos, Nigeria</p>
+        <p className="desc">I am a Full stack web developer based in Lagos, Nigeria</p>
         <a rel="noopener noreferrer" href={Resume} target="_blank">Resume</a>
       </div>
     </section>
