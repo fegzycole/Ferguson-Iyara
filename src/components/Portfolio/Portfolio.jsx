@@ -3,6 +3,7 @@ import Project from '../Project/Project';
 import BankaImage from '../../assets/files/myBanka.png';
 import TwitterImage from '../../assets/files/myTwitter.png';
 import FacebookImage from '../../assets/files/myFacebook.png';
+import EndlessRunnerImg from '../../assets/files/myEndlessRunner.png';
 
 class Portfolio extends Component {
   constructor() {
@@ -33,6 +34,14 @@ class Portfolio extends Component {
             'A social media application mimicking some of the functionalities of facebook.com, built as a project in the rails section of the microverse curriculum.',
           repository: 'https://github.com/kalavhan/facebook-clone',
           liveVersion: 'https://frozen-forest-23599.herokuapp.com'
+        },
+        {
+          name: 'Endless Runner',
+          imageSrc: EndlessRunnerImg,
+          about:
+          'An Endless Runner game built with Phaser.js, built as a capstone project in the javascript section of the microverse technical curriculum',
+          repository: 'https://github.com/fegzycole/Javascript-Capstone',
+          liveVersion: 'https://nameless-sea-41411.herokuapp.com/',
         }
       ]
     };
