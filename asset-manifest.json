@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/Ferguson-Iyara/static/css/main.69fd203d.chunk.css",
-    "main.js": "/Ferguson-Iyara/static/js/main.28f1f8e5.chunk.js",
-    "main.js.map": "/Ferguson-Iyara/static/js/main.28f1f8e5.chunk.js.map",
+    "main.css": "/Ferguson-Iyara/static/css/main.9ffe4f37.chunk.css",
+    "main.js": "/Ferguson-Iyara/static/js/main.929efd9e.chunk.js",
+    "main.js.map": "/Ferguson-Iyara/static/js/main.929efd9e.chunk.js.map",
     "runtime-main.js": "/Ferguson-Iyara/static/js/runtime-main.7a7a9ab6.js",
     "runtime-main.js.map": "/Ferguson-Iyara/static/js/runtime-main.7a7a9ab6.js.map",
-    "static/js/2.06312d88.chunk.js": "/Ferguson-Iyara/static/js/2.06312d88.chunk.js",
-    "static/js/2.06312d88.chunk.js.map": "/Ferguson-Iyara/static/js/2.06312d88.chunk.js.map",
+    "static/js/2.917d87e3.chunk.js": "/Ferguson-Iyara/static/js/2.917d87e3.chunk.js",
+    "static/js/2.917d87e3.chunk.js.map": "/Ferguson-Iyara/static/js/2.917d87e3.chunk.js.map",
     "index.html": "/Ferguson-Iyara/index.html",
-    "precache-manifest.d689316377e81eeca2293661e547541a.js": "/Ferguson-Iyara/precache-manifest.d689316377e81eeca2293661e547541a.js",
+    "precache-manifest.492eef2e678a3082bc774bf454aa37f0.js": "/Ferguson-Iyara/precache-manifest.492eef2e678a3082bc774bf454aa37f0.js",
     "service-worker.js": "/Ferguson-Iyara/service-worker.js",
-    "static/css/main.69fd203d.chunk.css.map": "/Ferguson-Iyara/static/css/main.69fd203d.chunk.css.map",
-    "static/js/2.06312d88.chunk.js.LICENSE.txt": "/Ferguson-Iyara/static/js/2.06312d88.chunk.js.LICENSE.txt",
+    "static/css/main.9ffe4f37.chunk.css.map": "/Ferguson-Iyara/static/css/main.9ffe4f37.chunk.css.map",
+    "static/js/2.917d87e3.chunk.js.LICENSE.txt": "/Ferguson-Iyara/static/js/2.917d87e3.chunk.js.LICENSE.txt",
     "static/media/Ferguson-Iyara.pdf": "/Ferguson-Iyara/static/media/Ferguson-Iyara.0c4ada30.pdf",
     "static/media/index.scss": "/Ferguson-Iyara/static/media/monaco-webfont.179f96cc.179f96cc.woff",
     "static/media/myBanka.png": "/Ferguson-Iyara/static/media/myBanka.6bb89fb6.png",
+    "static/media/myEndlessRunner.png": "/Ferguson-Iyara/static/media/myEndlessRunner.43cea3fb.png",
     "static/media/myFacebook.png": "/Ferguson-Iyara/static/media/myFacebook.64ca4013.png",
     "static/media/myTwitter.png": "/Ferguson-Iyara/static/media/myTwitter.891c22d2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7a7a9ab6.js",
-    "static/js/2.06312d88.chunk.js",
-    "static/css/main.69fd203d.chunk.css",
-    "static/js/main.28f1f8e5.chunk.js"
+    "static/js/2.917d87e3.chunk.js",
+    "static/css/main.9ffe4f37.chunk.css",
+    "static/js/main.929efd9e.chunk.js"
   ]
 }

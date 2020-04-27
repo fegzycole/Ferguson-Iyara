@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05ffbe3f7acb5f240ef65f863e31909a",
+    "revision": "b233348711ee794369fa0c8453c35c9d",
     "url": "/Ferguson-Iyara/index.html"
   },
   {
-    "revision": "586bbb49cc8c8c3c647e",
-    "url": "/Ferguson-Iyara/static/css/main.69fd203d.chunk.css"
+    "revision": "651a5f44937b6b59c5df",
+    "url": "/Ferguson-Iyara/static/css/main.9ffe4f37.chunk.css"
   },
   {
-    "revision": "5892cfb873a1785ec0eb",
-    "url": "/Ferguson-Iyara/static/js/2.06312d88.chunk.js"
+    "revision": "631b4daca1deec93673f",
+    "url": "/Ferguson-Iyara/static/js/2.917d87e3.chunk.js"
   },
   {
     "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/Ferguson-Iyara/static/js/2.06312d88.chunk.js.LICENSE.txt"
+    "url": "/Ferguson-Iyara/static/js/2.917d87e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "586bbb49cc8c8c3c647e",
-    "url": "/Ferguson-Iyara/static/js/main.28f1f8e5.chunk.js"
+    "revision": "651a5f44937b6b59c5df",
+    "url": "/Ferguson-Iyara/static/js/main.929efd9e.chunk.js"
   },
   {
     "revision": "c8c60d9f23ae629c721f",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6bb89fb6a34ff192acd4ccba0d771e3b",
     "url": "/Ferguson-Iyara/static/media/myBanka.6bb89fb6.png"
+  },
+  {
+    "revision": "43cea3fb0d459138fdd231eeadc5331a",
+    "url": "/Ferguson-Iyara/static/media/myEndlessRunner.43cea3fb.png"
   },
   {
     "revision": "64ca4013d7511b490e99a2e201810528",
