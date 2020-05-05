@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Ferguson-Iyara/static/css/main.7ffb681c.chunk.css",
+    "main.css": "/Ferguson-Iyara/static/css/main.83258be9.chunk.css",
     "main.js": "/Ferguson-Iyara/static/js/main.1f2e7b9f.chunk.js",
     "main.js.map": "/Ferguson-Iyara/static/js/main.1f2e7b9f.chunk.js.map",
     "runtime-main.js": "/Ferguson-Iyara/static/js/runtime-main.7a7a9ab6.js",
@@ -8,9 +8,9 @@
     "static/js/2.0846dc28.chunk.js": "/Ferguson-Iyara/static/js/2.0846dc28.chunk.js",
     "static/js/2.0846dc28.chunk.js.map": "/Ferguson-Iyara/static/js/2.0846dc28.chunk.js.map",
     "index.html": "/Ferguson-Iyara/index.html",
-    "precache-manifest.e43a731335ee89ca87a809498c03bdc8.js": "/Ferguson-Iyara/precache-manifest.e43a731335ee89ca87a809498c03bdc8.js",
+    "precache-manifest.7c6e1713dff0d8f50945e2bef2136911.js": "/Ferguson-Iyara/precache-manifest.7c6e1713dff0d8f50945e2bef2136911.js",
     "service-worker.js": "/Ferguson-Iyara/service-worker.js",
-    "static/css/main.7ffb681c.chunk.css.map": "/Ferguson-Iyara/static/css/main.7ffb681c.chunk.css.map",
+    "static/css/main.83258be9.chunk.css.map": "/Ferguson-Iyara/static/css/main.83258be9.chunk.css.map",
     "static/js/2.0846dc28.chunk.js.LICENSE.txt": "/Ferguson-Iyara/static/js/2.0846dc28.chunk.js.LICENSE.txt",
     "static/media/Ferguson-Iyara.pdf": "/Ferguson-Iyara/static/media/Ferguson-Iyara.0c4ada30.pdf",
     "static/media/index.scss": "/Ferguson-Iyara/static/media/monaco-webfont.179f96cc.179f96cc.woff",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.7a7a9ab6.js",
     "static/js/2.0846dc28.chunk.js",
-    "static/css/main.7ffb681c.chunk.css",
+    "static/css/main.83258be9.chunk.css",
     "static/js/main.1f2e7b9f.chunk.js"
   ]
 }
