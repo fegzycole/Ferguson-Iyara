@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Ferguson-Iyara/precache-manifest.7c6e1713dff0d8f50945e2bef2136911.js"
+  "/Ferguson-Iyara/precache-manifest.c03daf2549058b6e9f68a3450dbc6d5f.js"
 );
 
 self.addEventListener('message', (event) => {
